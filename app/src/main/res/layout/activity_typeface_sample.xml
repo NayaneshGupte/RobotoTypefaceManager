@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.technosavy.customtypefaceexample.TypefaceSampleActivity">
+
+
+    <com.typeface.custom.views.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Thin Italic"
+        app:typeface="roboto_thin_italic" />
+
+    <com.typeface.custom.views.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Regular"
+        app:typeface="roboto_regular" />
+
+    <com.typeface.custom.views.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Medium"
+        app:typeface="roboto_medium" />
+
+
+    <com.typeface.custom.views.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Bold"
+        app:typeface="roboto_bold" />
+
+    <!-- buttons -->
+
+    <com.typeface.custom.views.RobotoButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Thin Italic"
+        app:typeface="roboto_thin_italic" />
+
+    <com.typeface.custom.views.RobotoButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Regular"
+        app:typeface="roboto_regular" />
+
+    <com.typeface.custom.views.RobotoButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Medium"
+        app:typeface="roboto_medium" />
+
+
+    <com.typeface.custom.views.RobotoButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Bold"
+        app:typeface="roboto_bold" />
+
+    <!-- edittext -->
+
+    <com.typeface.custom.views.RobotoEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Thin Italic"
+        app:typeface="roboto_thin_italic" />
+
+    <com.typeface.custom.views.RobotoEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Regular"
+        app:typeface="roboto_regular" />
+
+    <com.typeface.custom.views.RobotoEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Medium"
+        app:typeface="roboto_medium" />
+
+
+    <com.typeface.custom.views.RobotoEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roboto Bold"
+        app:typeface="roboto_bold" />
+
+
+</LinearLayout>
